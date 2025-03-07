@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weaponry</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu" class="screen">
+        <h1>Weaponry</h1>
+        <p id="level">Level: 1</p>
+        <p id="xp">XP: 0/300</p>
+        <button id="fightButton">Fight</button>
+    </div>
+
+    <div id="fight" class="screen hidden">
+        <h2 id="weaponDisplay"></h2>
+        <div id="healthBars">
+            <div id="playerHealth" class="health-bar"></div>
+            <div id="botHealth" class="health-bar"></div>
+        </div>
+        <div id="controls">
+            <p>Use WASD or Arrow keys to move</p>
+        </div>
+        <div id="botDisplay"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
